@@ -38,10 +38,10 @@ body{
 .main{
   /*background-image: url(https://images.unsplash.com/photo-1534996858221-380b92700493);*/
   /*background-image: url(https://images.unsplash.com/photo-1508379748716-9d2d1c63db1b);*/
-  background-image: url(https://images.unsplash.com/photo-1572792644425-e9524a8aa2ab);
+  background-image: url(https://raw.githubusercontent.com/Qubi-B/qubi_prints_website/main/druked_beta/image1.jpeg);
   /*background-image: url(https://images.unsplash.com/photo-1616427030011-214e41469f40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80);*/
   /*background-image: url(https://images.unsplash.com/photo-1471540161297-5ddd90d98af1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1199&q=80s);*/
-  background-position: 0% 40%;
+  /*background-position: 0% 40%;*/
   background-size: cover;
   height: 100vh;
   color: white;
