@@ -1,0 +1,34 @@
+.zast{
+    width: 100%;
+    text-align: left;
+    background-color: #1d1d1d;
+  
+  }
+  .zast_content{
+    margin: auto;
+    text-align: left;
+  }
+  .zast_img{
+    background-image: url("https://media.printables.com/media/prints/237722/images/2152786_63ea317f-5c09-4c14-8d0f-9115676db35a/thumbs/inside/1920x1440/jpeg/large_display_img_4484_237722.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 50vw;
+    min-height: 50vh;
+  }
+  .zast_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-bottom: 20px;
+    margin: auto;
+    padding: 2vw;
+    border-radius: 15px;
+  }
+  .zast_wrapper div{
+    width: 44%;
+    min-width: 400px;
+    margin: auto;
+    border: 0px solid none;
+    border-radius: 15px;
+  }
