@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zamówienie - Druked</title>
+        <style>
+            body{
+                background-color: #292929;
+                height: 100%;
+                width: 100%;
+                font-family: sans-serif;
+            }
+            .main{
+                background-color: rgb(22, 22, 22);
+                color: white;
+                text-align: center;
+                padding: 25px;
+                padding-left: 5vw;
+                padding-right: 5vw;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            p{
+                margin-top: 8px;
+                margin-bottom: 8px;
+            }
+            h5{
+                margin-top: 0px;
+            }
+            h1{
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <img src="https://druked.pl/media/images/druked-logo.png" height="50px" alt="Druked">
+            <h1>Sprawdź numer zamówienia</h1>
+            <h5 id="n"></h5>
+            <div style="text-align: center">
+                <p id="cna"></p>
+                <p id="zbr"></p>
+                <p id="szt"></p>
+                <p id="dst"></p>
+                <p id="prj"></p>
+                <p id="mat"></p>
+                <p id="wag"></p>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
