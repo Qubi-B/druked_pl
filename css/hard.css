@@ -32,3 +32,13 @@
     border: 0px solid none;
     border-radius: 15px;
   }
+  .main2_text{
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    transform: translate(0px, -20%);
+    text-shadow: 0px 0px 12px black;
+  }
+  .pakiety{
+    margin-top: 20px;
+  }
