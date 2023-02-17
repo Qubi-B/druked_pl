@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nowe zamówienie - Druked</title>
+        <style>
+            body{
+                background-color: #292929;
+                height: 100%;
+                width: 100%;
+                font-family: sans-serif;
+            }
+            .main{
+                background-color: rgb(22, 22, 22);
+                color: white;
+                text-align: center;
+                padding: 25px;
+                padding-left: 5vw;
+                padding-right: 5vw;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            p{
+                margin-top: 8px;
+                margin-bottom: 8px;
+            }
+            h5{
+                margin-top: 0px;
+            }
+            h1{
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <img src="https://druked.pl/media/images/druked-logo.png" height="50px" alt="Druked">
+            <h1>Stwórz numer zamówienia</h1>
+            <div style="text-align: center">
+                <p>Cena: <input type="text" id="cna"></input> PLN</p>
+                <p>Zbiorcze: <select name="zbr" id="zbr">
+                    <option value="1">Tak</option>
+                    <option value="0">Nie</option>
+                  </select></p>
+                <p>Sztuk: <input type="text" id="szt"></input></p>
+                <p>Dostawa: <select name="dst" id="dst">
+                    <option value="9">Wysyłka</option>
+                    <option value="8">Odbiór osobisty</option>
+                    <option value="7">Spotkanie</option>
+                  </select></p>
+                  <p>Projekt: <select name="prj" id="prj">
+                    <option value="1">Projekt z internetu</option>
+                    <option value="2">Usługa projektowania</option>
+                    <option value="3">Replikacja części</option>
+                  </select></p>
+                  <p>Projekt: <select name="mat" id="mat">
+                    <option value="9">PLA</option>
+                    <option value="8">PETG</option>
+                    <option value="7">ASA</option>
+                    <option value="6">ABS</option>
+                  </select></p>
+                <p>Waga: <input type="text" id="wag"></input> g</p>
+                <p>ID: <input type="text" id="id"></input></p>
+                <button onclick="compute()">Zatwierdź</button>
+                <p id="result"></p>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>

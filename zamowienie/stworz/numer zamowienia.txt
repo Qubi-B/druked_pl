@@ -1,0 +1,25 @@
+Wersja numeru:           1
+Cena:                    xxx,00 PLN; (xxx00)
+Opakowanie zbiorcze:     tak(1)/nie(0);
+Ilość sztuk:             xxx (xxx);
+Dostawa:                 (9-wysyłka, 8-odbiór osobisty);
+Typ projektu:            (1-projekt z internetu, 2-usługa projektu, 3-replikacja części);
+Materiał:                (9-PLA, 8-PETG, 7-ASA, 6-ABS);
+Waga:                    xxxx g (xxxx);
+ID:                      xxxx;
+
+
+1|08598|1|007|9|2|9|0024|0001
+
+108598100792900240001
+Wersja: 1
+Cena: 85,98 PLN
+Opakowanie zbiorcze: tak
+Sztuk: 7
+Dostawa: wysyłka
+Projekt: Usługa projektowania
+Materiał: PLA
+Waga: 24 g
+ID: 0001
+
+
