@@ -34,6 +34,6 @@ var myInterval = setInterval(function(){
   if(tyg == 11){nmies = "grudnia"};
 
   date.innerHTML = dtyg + ", " + ("0" + dd).substr(-2) + " " + nmies + " " + y + "r.";
-  hour.innerHTML = ("0" + h).substr(-2) + " : " + ("0" + m).substr(-2);
+  hour.innerHTML = ("0" + h).substr(-2) + " : " + ("0" + m).substr(-2) + " : " + ("0" + d.getSeconds()).substr(-2);
 
 } , 1000);
