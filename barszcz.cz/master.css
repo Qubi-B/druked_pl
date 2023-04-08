@@ -5,7 +5,9 @@ html, body{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-
+    
+    background-color: black;
+    /*
     background: linear-gradient(318deg, #000000, #2d2d2d);
     background-size: 400% 400%;
 
@@ -13,6 +15,7 @@ html, body{
     -moz-animation: Gradient 25s ease infinite;
     -o-animation: Gradient 25s ease infinite;
     animation: Gradient 25s ease infinite;
+    */
 }
 .center{
     position: absolute;
