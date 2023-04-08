@@ -1,7 +1,7 @@
 var date = document.getElementById('date');
 var hour = document.getElementById('hour');
 
-function time() {
+var myInterval = setInterval(function(){
   var d = new Date();
   var tyg = d.getDay();
   var dd = d.getDate();
@@ -35,6 +35,5 @@ function time() {
 
   date.innerHTML = dtyg + ", " + ("0" + dd).substr(-2) + " " + nmies + " " + y + "r.";
   hour.innerHTML = ("0" + h).substr(-2) + " : " + ("0" + m).substr(-2);
-}
 
-var myInterval = setInterval(time() , 2000);
+} , 1000);
